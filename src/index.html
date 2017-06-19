@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="gameoflife.css">
+        <meta charset="UTF-8" />
+        <title>Game Of Life</title>
+        <script src="//cdn.jsdelivr.net/phaser/2.5.0/phaser.min.js"></script>
+    </head>
+<h1>Game of life - an excercise project using <a href="http://phaser.io/">Phaser</a></h1>
+<body>
+<!--<div>-->
+<script type="text/javascript" src="phaserDemo.js"></script>
+<div class="center">
+<div id="gamecontainer" class="game"></div>
+
+<div id="controls" class="controls"></div>
+
+  <div class="info">
+    <h3>An excercise project</h3>
+    <p> This was an exercise project at Turku University software engineering class. I have very limited experience with html, css or javascript but I think this turned out nicely. </p>
+
+    <h3>Original requirements:</h3>
+    <ul>
+      <li>Scrolling text</li>
+      <li>Some effect (this is using <a href="http://phaser.io/examples/v2/category/tweens">Tweens</a> to fade out the dead cells)</li>
+      <li>Music - <a href="http://ericskiff.com/music/">Eric Skiff - Underclocked (underunderclocked mix)</a/></li>
+    </ul>
+
+    <h3>What?</h3>
+    <p>This simulation uses classic <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Game of Life</a> rules. Additionally, if there are less than 15 new cells born in a generation a counter is incremented and game resets after certain amount is reached. This prevents some cases where it gets stuck oscillating some uninteresting small formations.</p>
+    <p>Sliders above are used to control a particle effect when a cell dies. I did some experimenting but I did not like it too much. However I left it there so feel free to test. Also source code is <a href="">here (not yet though)</a>.</p>
+
+  </div>
+
+
+</div>
+    </body>
+</html>

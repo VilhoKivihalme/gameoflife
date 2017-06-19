@@ -1,0 +1,45 @@
+canvas {  
+	margin : auto; 
+	display : block;
+	border: double;
+	border-color:#FFFFFF;
+}
+
+body{
+	background-color: #202020;
+}
+div.info{
+	border: double;
+	border-color:#FFFFFF;
+	width: inherit;
+	color:#FFFFFF;
+	background-color: #404040;
+	font-family:monospace;
+	width: 1280px;
+	
+}
+
+a:link, a:visited {
+    color: gray;
+}
+a:hover {
+    color: red;
+}
+h1{
+	font-family:monospace;
+	color: #40FF40;
+	text-align: center;
+	
+}
+
+.center{
+  margin: auto;
+  width: 1280px;
+}
+div.controls{
+	margin: auto;
+	display:block;
+	color: #FFFFFF;
+	padding: 10px;
+	text-align: center;
+}
